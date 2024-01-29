@@ -1,3 +1,0 @@
-{"name":"Nguy\u00ean Tu\u1ea5n Nguy\u00ean","birth":"2004","score":"10","gender":"Nam"}
-{"name":"Nguy\u00ean","birth":"2005","score":"9","gender":"Nam"}
-{"name":"Nguy\u00ean","birth":"2005","score":"10","gender":"Nam"}

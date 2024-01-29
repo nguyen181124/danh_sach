@@ -48,17 +48,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     header('Location: '.'/list');
   }
 }
-$listuser = [];
-$myfile = fopen("newfile.txt", "r") or die("Unable to open file!");
-// Output one line until end-of-file
-while (!feof($myfile)) {
-  $user = json_decode(fgets($myfile), true);
-  if ($user) {
-    $listuser[] = $user;
-  }
-
-}
-fclose($myfile);
 
 $listuser = [];
 $myfile = fopen("newfile.txt", "r") or die("Unable to open file!");
@@ -116,7 +105,7 @@ fclose($myfile);
             <td>
               <?php echo $listuser[$i]["score"] ?>
             </td>
-            <td id="test" class="text-center"><input class="check" value="<?php echo $i; ?>" type="checkbox"></td>
+            <td class="text-center"><input class="check" value="<?php echo $i; ?>" type="checkbox"></td>
           </tr>
         <?php } ?>
       </table>
@@ -154,8 +143,7 @@ fclose($myfile);
 </body>
 
 <script>
-  let test = document.getElementById("test");
-  test.addEventListener("click", function () { })
+
 </script>
 
 </html>

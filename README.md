@@ -7,3 +7,11 @@ Người thực hiện: Nguyễn Tuấn Nguyên
     - ![](img/img2.png)
 1. Kiểm tra dữ liệu nhập
     - ![](img/img3.png)
+
+## Các phần đã hoàn thành
+- [x] Thêm vào danh sách
+- [x] In ra phần được chọn trong danh sách
+
+## Các phần chưa hoàn thành
+- [] Xóa phần được chọn 
+- [] Sửa phần được chọn
